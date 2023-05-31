@@ -1,5 +1,7 @@
 /* GENERAL */
 
+/* HEADER */
+
 header > .container {
     background-color: #2c3e50;
 }
@@ -10,4 +12,16 @@ header {
 
 header li {
     list-style: none;
+}
+
+/* MAIN */
+
+main section:first-child .container, 
+main section:nth-child(3) .container {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.main-image {
+    width: 200px;
 }
