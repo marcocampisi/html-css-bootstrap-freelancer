@@ -35,3 +35,17 @@ main section:nth-child(3) {
     background-color: #1abc9c;
     border: none;
 }
+
+/* FOOTER */
+
+footer {
+    color: white;
+}
+
+footer section:first-child {
+    background-color: #3a546d;
+}
+
+footer section:nth-child(2) {
+    background-color: #2c3e50;
+}
