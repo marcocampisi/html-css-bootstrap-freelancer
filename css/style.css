@@ -36,6 +36,26 @@ main section:nth-child(3) {
     border: none;
 }
 
+.star-divider {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.star-divider * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.star-divider i {
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+.star-divider hr {
+    width: 150px;
+    height: 4px;
+}
+
 /* FOOTER */
 
 footer {
@@ -48,4 +68,18 @@ footer section:first-child {
 
 footer section:nth-child(2) {
     background-color: #2c3e50;
+}
+
+#start-bs {
+    color: #1abc9c;
+}
+
+.socials * {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    cursor: pointer;
 }
